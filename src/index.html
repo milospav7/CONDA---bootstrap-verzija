@@ -1,82 +1,296 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>CONDA Crowdinvesting</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>CONDA Crowdinvesting</title>
   </head>
   <body>
-      <!-- NAVIGATION BAR WITH ATTACHED MENU-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white mb-3 p-0">
-      <div class="container">
-        <a href="#" class="navbar-brand d-flex align-items-center my-2">
-          <img src="images/conda.png" class="mr-3">
-          <h5 class="font-weight-normal text-uppercase m-0">Crowd<strong>investing</strong></h5>
-        </a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span> </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="navbar-nav ml-auto">
-              <div class="nav-item px-3 py-2">
-                <a href="#" class="nav-link d-block text-uppercase">Projects to <span class="d-block">discover</span></a>
-              </div>
-              <div class="nav-item px-3 py-2">
-                <a href="#" class="nav-link d-block text-uppercase">Why invest in <span class="d-block">crowdinvesting</span></a>
-              </div>
-              <div class="nav-item px-3 py-2">
-                <a href="#" class="nav-link d-block text-uppercase">Submit <span class="d-block">project</span></a>
-              </div>
-              <div class="nav-item px-3 py-2">
-                <a href="#" class="nav-link d-block text-uppercase">About <span class="d-block">conda</span></a>
-              </div>
-              <div class="nav-item px-3 py-2">
-                <a href="#" class="nav-link d-block text-uppercase">Login</a>
-              </div>
-            </div>
-          </div>
-      </div>
-    </nav>
-    <section class="header-attach bg-secondary m-0 py-2 d-flex">
-        <div class="container">
-            <form class="form-inline">
-                <label for="gender" class="font-weight-bold">Regions: </label>
-                <select id="gender" class="form-control">
-                    <option>Conda EUROPE</option>
-                    <option>Conda Austria</option>
-                    <option>Conda Germany</option>
-                    <option>Conda Slovenia</option>
-                </select>
-                <select id="gender" class="form-control ml-auto">
-                    <option>EN</option>
-                    <option>DE</option>
-                </select>
-            </form>
-        </div>
-    </section>
-    <!-- END NAVIGATION BAR WITH ATTACHED MENU --->
-    <!-- START SHOWCASE AREA WITH TEXT IN IN -->
-    <div class="showcase d-flex align-items-center" style="background:url(images/baner.jpg) no-repeat; height:500px;">
-        <div class="container">
-            <div class="showcase-inner d-flex flex-column text-white" style="width:35%;">
-                <h3 class="mb-4">Welcome to CONDA Crowdinvesting!</h3>
-                <p class="mb-4">Invest in companies with personality and benefit in a long-term from their success.</p>
-                <button type="button" class="btn btn-danger text-uppercase">choose your region</button>
-            </div>
-        </div>
-    </div>
-    <!-- END SHOWCASE AREA -->
-    <!-- START CALL-TO-ACTION AREA -->
-    <div class="container">
-        <div class="cta-wrapper">
-            <div class="cta">
-                <i class="fas fa-search"></i>
-            </div>
-        </div>
+	  <!-- NAVIGATION BAR WITH ATTACHED MENU-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-white mb-3 p-0">
+	  <div class="container">
+		<a href="#" class="navbar-brand d-flex align-items-center my-2">
+		  <img src="images/conda.png" class="mr-3">
+		  <h5 class="font-weight-normal text-uppercase m-0">Crowd<strong>investing</strong></h5>
+		</a>
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span> </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+			<div class="navbar-nav ml-auto">
+			  <div class="nav-item px-3 py-2">
+				<a href="#" class="nav-link d-block text-uppercase">Projects to <span class="d-block">discover</span></a>
+			  </div>
+			  <div class="nav-item px-3 py-2">
+				<a href="#" class="nav-link d-block text-uppercase">Why invest in <span class="d-block">crowdinvesting</span></a>
+			  </div>
+			  <div class="nav-item px-3 py-2">
+				<a href="#" class="nav-link d-block text-uppercase">Submit <span class="d-block">project</span></a>
+			  </div>
+			  <div class="nav-item px-3 py-2">
+				<a href="#" class="nav-link d-block text-uppercase">About <span class="d-block">conda</span></a>
+			  </div>
+			  <div class="nav-item px-3 py-2">
+				<a href="#" class="nav-link d-block text-uppercase">Login</a>
+			  </div>
+			</div>
+		  </div>
+	  </div>
+	</nav>
+	<section class="header-attach bg-secondary m-0 py-2 d-flex">
+		<div class="container">
+			<form class="form-inline">
+				<label for="gender" class="font-weight-bold">Regions: </label>
+				<select id="gender" class="form-control">
+					<option>Conda EUROPE</option>
+					<option>Conda Austria</option>
+					<option>Conda Germany</option>
+					<option>Conda Slovenia</option>
+				</select>
+				<select id="gender" class="form-control ml-auto">
+					<option>EN</option>
+					<option>DE</option>
+				</select>
+			</form>
+		</div>
+	</section>
+	<!-- END NAVIGATION BAR WITH ATTACHED MENU --->
+	<!-- START SHOWCASE AREA WITH TEXT IN IN -->
+	<section class="showcase d-flex align-items-center" style="background:url(images/baner.jpg) no-repeat; height:500px; background-size:cover">
+		<div class="container">
+			<div class="showcase-inner d-flex flex-column text-white">
+				<h3 class="mb-4">Welcome to CONDA Crowdinvesting!</h3>
+				<p class="mb-4">Invest in companies with personality and benefit in a long-term from their success.</p>
+				<button type="button" class="btn btn-danger text-uppercase w-25">choose your region</button>
+			</div>
+		</div>
+	</section>
+	<!-- END SHOWCASE AREA -->
+	<!-- START CALL-TO-ACTION SECTION -->
+	<div class="container">
+		<div class="cta-wrapper d-flex justify-content-between my-5">
+			<a href="#" class="cta-link d-block w-25 text-center">
+			    <div class="cta-font-wrapper px-3 py-3 w-50 bg-success text-center mx-auto rounded-circle">
+				    <i class="fa fa-search text-white display-3"></i>
+			    </div>
+			    <p class="mt-2 text-dark">Discover investment opportunities</p>
+			</a>
+			<a href="#" class="cta-link d-block w-25 text-center">
+				<div class="cta-font-wrapper px-3 py-3 w-50 bg-success text-center mx-auto rounded-circle">
+					<i class="fa fa-pencil text-white display-3"></i>
+				</div>
+				<p class="mt-2 text-dark">Register online now</p>
+			</a>
+			<a href="#" class="cta-link d-block w-25 text-center">
+				<div class="cta-font-wrapper px-3 py-3 w-50 bg-success text-center mx-auto rounded-circle">
+					<i class="fa fa-envelope-open text-white display-3"></i>
+				</div>
+				<p class="mt-2 text-dark">Register for our newsletter</p>
+			</a>
+			<a href="#" class="cta-link d-block w-25 text-center">
+				<div class="cta-font-wrapper px-3 py-3 w-50 bg-success text-center mx-auto rounded-circle">
+					<i class="fa fa-area-chart text-white display-3"></i>
+				</div>
+				<p class="mt-2 text-dark">Manage your own project portfolio</p>
+			</a>
+			<a href="#" class="cta-link d-block w-25 text-center">
+				<div class="cta-font-wrapper px-3 py-3 w-50 bg-success text-center mx-auto rounded-circle">
+					<i class="fa fa-question text-white display-3"></i>
+				</div>
+				<p class="mt-2 text-dark">Read our investment guidlines</p>
+			</a>
+		</div>		
+	</div>
+	<!-- END CALL TO ACTION SECTION -->
+	<!-- START CAMPAIGN SECTION -->
+	<div class="container">
+		<div class="row campaigns">
+			<section class="insvestment projects col-8">
+				<h1 class="mb-4 display-4">Investment projects</h1>
+				<div class="row">
+					<div class="col-6">
+						<a href="" class="d-block mb-4">
+							<div class="project-single card">
+								<img src="images/greenstorm.jpg" class="card-img-top">
+								<div class="card-header bg-success px-3 py-2 d-flex justify-content-between">
+									<p class="text-uppercase text-white font-weight-bold my-auto">Successfully finnanced</p>
+									<img src="images/logo/greenstorm.jpg" >
+								</div>
+								<div class="card-body text-dark">
+									<h4 class="card-title">Greenstorm</h4>
+									<p class="card-subtitle text-muted"><i class="fa fa-map-marker mr-1"></i>Ellmau, Osterreich</p>
+									<p class="card-text mt-3">Our innovative e-mobility rental concept causes full hotel beds and green driving enjoyment in holiday areas. Invest now and become a part of the succes!</p>
+								</div>
+								<div class="card-footer text-dark bg-light d-flex justify-content-between">
+									<div class="financed">
+										<span class="font-weight-bold">810%</span> financed
+									</div>
+									<div class="invested">
+										<span class="font-weight-bold">810,400$</span> invested
+									</div>
+									<div class="investors">
+										<span class="font-weight-bold">407</span> investors
+									</div>	
+								</div>
+							</div>
+						</a>
+						<a href="" class="d-block mb-4">
+								<div class="project-single card">
+									<img src="images/coolgiants.jpg" class="card-img-top">
+									<div class="card-header bg-success px-3 py-2 d-flex justify-content-between">
+										<p class="text-uppercase text-white font-weight-bold my-auto">Successfully finnanced</p>
+										<img src="images/logo/rock.jpg" >
+									</div>
+									<div class="card-body text-dark">
+										<h4 class="card-title">coolGiants) AG</h4>
+										<p class="card-subtitle text-muted"><i class="fa fa-map-marker mr-1"></i>Bremen,Deutschland</p>
+										<p class="card-text mt-3">NEW SME: for over 25 years cooking and cooling have been the passion of coolGiants. Invest now!</p>
+									</div>
+									<div class="card-footer text-dark bg-light d-flex justify-content-between">
+										<div class="financed">
+											<span class="font-weight-bold">424%</span> financed
+										</div>
+										<div class="invested">
+											<span class="font-weight-bold">211.900$</span> invested
+										</div>
+										<div class="investors">
+											<span class="font-weight-bold">203</span> investors
+										</div>	
+									</div>
+								</div>
+							</a>
+							<a href="" class="d-block mb-4">
+									<div class="project-single card">
+										<img src="images/contentexchange.jpg" class="card-img-top">
+										<div class="card-header bg-success px-3 py-2 d-flex justify-content-between">
+											<p class="text-uppercase text-white font-weight-bold my-auto">Successfully finnanced</p>
+											<img src="images/logo/content.jpg" >
+										</div>
+										<div class="card-body text-dark">
+											<h4 class="card-title">Content Exchange</h4>
+											<p class="card-subtitle text-muted"><i class="fa fa-map-marker mr-1"></i>Ljubljana, Slovenia</p>
+											<p class="card-text mt-3">BigData is the next big thing – We now want to offer you the once in a lifetime chance to hop on the BigData train!</p>
+										</div>
+										<div class="card-footer text-dark bg-light d-flex justify-content-between">
+											<div class="financed">
+												<span class="font-weight-bold">614%</span> financed
+											</div>
+											<div class="invested">
+												<span class="font-weight-bold">306.900$</span> invested
+											</div>
+											<div class="investors">
+												<span class="font-weight-bold">100</span> investors
+											</div>	
+										</div>
+									</div>
+								</a>
+					</div>
+					<div class="col-6">
+						<a href="" class="d-block mb-4">
+							<div class="project-single card">
+								<img src="images/pellet.png" class="card-img-top">
+								<div class="card-header bg-primary px-3 py-2 d-flex justify-content-between">
+									<p class="text-uppercase text-white font-weight-bold my-auto"><span class="h5">07</span> days remaining</p>
+									<img src="images/logo/pellet.jpg" >
+								</div>
+								<div class="card-body text-dark">
+									<h4 class="card-title">Pelletswerl Sachsenburg</h4>
+									<p class="card-subtitle text-muted"><i class="fa fa-map-marker mr-1"></i>Hamburg, Deutschland</p>
+									<p class="card-text mt-3">The future project of Solarenergie Ulm offers the opportunity to invest in green energy!</p>
+									<div class="status-wrapper text-dark d-flex">
+										<div class="scale rounded-circle border border-success p-4 pt-5 mr-3 text-center">
+											<p class="font-weight-bold m-0">128.200$</p>
+											<p class="m-0">89 Investors</p>
+											<p>128%</p>
+										</div>
+										<div class="status">
+											<p><span class="d-block h5 m-0">100.000$</span> Minimum Investment</p>
+											<p class="text-muted"><span class="d-block h5 m-0">400.000$</span> Total amount</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="" class="d-block">
+							<div class="project-single card mb-4">
+								<img src="images/sycube.png" class="card-img-top">
+								<div class="card-header bg-success px-3 py-2 d-flex justify-content-between">
+									<p class="text-uppercase text-white font-weight-bold my-auto">Successfully finnanced</p>
+									<img src="images/logo/sycube.png" >
+								</div>
+								<div class="card-body text-dark">
+									<h4 class="card-title">Sycube.</h4>
+									<p class="card-subtitle text-muted"><i class="fa fa-map-marker mr-1"></i>Wien, Osterreich</p>
+									<p class="card-text mt-3">Mit unserem patentierten, vollautomatischen Verleihsystem sorgen wir für nachhaltige Mobilitätslösungen – und das bereits seit 2003. Profitieren Sie von unserer langjährigen Erfahrungen im Bereich der Rentable (e)Mobility und werden Sie noch heute Teil des Wachstumsmarkts der Zukunft.</p>
+								</div>
+								<div class="card-footer text-dark bg-light d-flex justify-content-between">
+									<div class="financed">
+										<span class="font-weight-bold">327%</span> financed
+									</div>
+									<div class="invested">
+										<span class="font-weight-bold">163,600$</span> invested
+									</div>
+									<div class="investors">
+										<span class="font-weight-bold">146</span> investors
+									</div>	
+								</div>
+							</div>
+						</a>
+						<a href="" class="d-block mb-4">
+							<div class="project-single card">
+								<img src="images/lct.jpg" class="card-img-top">
+								<div class="card-header bg-success px-3 py-2 d-flex justify-content-between">
+									<p class="text-uppercase text-white font-weight-bold my-auto">Successfully finnanced</p>
+									<img src="images/logo/lct.jpg" >
+								</div>
+								<div class="card-body text-dark">
+									<h4 class="card-title">LCT Light and concrete technology</h4>
+									<p class="card-subtitle text-muted"><i class="fa fa-map-marker mr-1"></i>Gleisdorf, Austria</p>
+									<p class="card-text mt-3">Invest now in Austrian world market leader in transculent concerete!</p>
+								</div>
+								<div class="card-footer text-dark bg-light d-flex justify-content-between">
+									<div class="financed">
+										<span class="font-weight-bold">655%</span> financed
+									</div>
+									<div class="invested">
+										<span class="font-weight-bold">654.500$</span> invested
+									</div>
+									<div class="investors">
+										<span class="font-weight-bold">599</span> investors
+									</div>	
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<button class="btn btn-outline-secondary text-uppercase w-100">Discover more projects</button>
+			</section>
 
-    </div>
+			<section class="news col-4">
+				<h1 class="mb-4 display-4">News</h1>
+				<a href="" class="d-block mb-4">
+						<div class="project-single card p-2">
+							<img src="images/borza.png" class="card-img-top">
+							<div class="card-body p-0 text-dark">
+								<h4 class="card-title mt-3 text-dark">Borza terjatev: 4th quarterly report 2017</h4>
+								<p class="card-subtitle text-muted"><i class="fa fa-clock-o mr-1 text-success"></i>22. January 2018 by <span class="author">Lora</span></p>
+								<p class="card-text text-dark mt-3">All investors of Borza terjatev have received the quarterly report 04/2017. If you did not, please contact team@conda.at. The following information can be published by us: Dear CONDA investors, 2017 has ended and with it also our second full year of operations. I wish to take this opportunity to provide you – in addition to our […]</p>
+							</div>
+						</div>
+					</a>
+			</section>
+			
+			
+		</div>
+	</div>
+
+
+	<div class="boxmargin" style="width:500px; height:350px;"></div>
+
+	
+			
 
 
   <script src="js/jquery.min.js"></script>
