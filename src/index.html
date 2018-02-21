@@ -11,13 +11,13 @@
   </head>
   <body>
 	  <!-- NAVIGATION BAR WITH ATTACHED MENU-->
-	<nav class="navbar navbar-expand-lg navbar-light bg-white p-0">
+	<nav class="navbar navbar-expand-xl navbar-light bg-white p-0">
 	  <div class="container">
-		<a href="#" class="navbar-brand d-flex align-items-center">
+		<a href="#" class="navbar-brand d-flex align-items-center mx-2 my-2">
 		  <img src="images/conda.png" class="mr-3">
-		  <h5 class="font-weight-normal text-uppercase m-0">Crowd<strong>investing</strong></h5>
+		  <h5 class="font-weight-normal text-uppercase m-0 d-sm-block d-none">Crowd<strong>investing</strong></h5>
 		</a>
-		<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span> </button>
+		<button class="navbar-toggler mr-2" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span> </button>
 		  <div class="collapse navbar-collapse" id="navbarNav">
 			<div class="navbar-nav ml-auto">
 			  <div class="nav-item">
@@ -40,7 +40,7 @@
 		  </div>
 	  </div>
 	</nav>
-	<section class="header-attach bg-light m-0 py-2 d-flex">
+	<section class="header-attach bg-light m-0 py-2 d-none d-lg-flex">
 		<div class="container">
 			<form class="form-inline">
 				<label for="gender" class="font-weight-bold mr-2">Regions: </label>
@@ -61,11 +61,18 @@
 	<!-- START SHOWCASE AREA WITH TEXT IN IT -->
 	<section class="showcase d-flex align-items-center" style="background:url(images/baner.jpg) no-repeat; height:500px; background-size:cover">
 		<div class="container">
-			<div class="showcase-inner d-flex flex-column text-white">
+			<div class="showcase-inner d-none d-lg-flex flex-column text-white">
 				<h3 class="mb-4">Welcome to CONDA Crowdinvesting!</h3>
 				<p class="mb-4">Invest in companies with personality and benefit in a long-term from their success.</p>
 				<button type="button" class="btn btn-danger text-uppercase w-50">choose your region</button>
 			</div>
+		</div>
+	</section>
+	<section class="welcome-area-responsible d-lg-none bg-primary py-4 px-2 text-center text-white">
+		<div class="container">
+			<h3 class="mb-4">Welcome to CONDA Crowdinvesting!</h3>
+			<p class="mb-4">Invest in companies with personality and benefit in a long-term from their success.</p>
+			<button type="button" class="btn btn-danger text-uppercase w-100">choose your region</button>
 		</div>
 	</section>
 	<!-- END SHOWCASE AREA -->
@@ -281,7 +288,7 @@
 				<button class="btn btn-outline-secondary text-uppercase w-100">Discover more projects</button>
 			</section>
 			<!-- NEWS SECTION -->
-			<section class="news mb-5 col-lg-4 col-md-16 col-sm-12 col-xs-12">
+			<section class="news mb-5 col-lg-4 col-md-6 col-sm-12 col-xs-12">
 				<h1 class="mb-4 display-4">News</h1>
 					<div class="project-single card p-2 mb-4">
 						<a href="" class="d-block"><img src="images/borza.png" class="card-img-top"></a>  
